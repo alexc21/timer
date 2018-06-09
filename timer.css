@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+div.boite{
+    color:green;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+div.boite2{
+    font-family: eater;
+    font-size:100px;
+    text-align: center;
+    margin-top:50px;
+    color: red;
+}

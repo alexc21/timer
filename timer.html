@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="timer.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+    <script type="text/javascript" src="timer.js"></script>
+</head>
+<body>
+ <div class="boite"> 
+         <form name="f_chrono">
+            <label for="saisie">Entrez le temps voulu en minutes : </label>
+            <input type="text" name="saisie" style="text-align: right;" /><br />
+            <input type="button" name="dem" id="dem" value="Démarrer" onclick="IndiquerMinutes(f_chrono.saisie.value); DemarrerChrono();" />
+            <input type="button" name="stop" id="stop" value="Arreter !" onclick="ArreterChrono();" style="display: none;" />
+            <input type="button" name="pause" id="pause" value="Pause" onclick="PauseChrono();" style="display: none;" />
+        </form>
+     </div> 
+    <div class="boite2">
+        <p id="chrono"></p>    
+    </div>
+</body>
+
+</html>
